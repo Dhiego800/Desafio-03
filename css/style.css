@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+html {
+  font-family: sans-serif; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+header, .span-title, .menu-header {
+  display: flex; }
+
+header {
+  padding: 10px;
+  justify-content: space-around;
+  background-color: #e2f6f8; }
+
+.span-title {
+  flex-basis: 35%;
+  font-size: 20px;
+  color: #0f7bff; }
+
+.menu-header {
+  flex-basis: 30%;
+  justify-content: space-between;
+  align-items: center; }
+  .menu-header li a {
+    color: #929292;
+    text-decoration: none;
+    text-transform: uppercase; }
+    .menu-header li a:hover {
+      color: #0f7bff; }
+
+.bto-header {
+  background-color: #0f7bff;
+  box-shadow: none;
+  border-radius: 10px;
+  width: 100px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 5px; }
+
+strong {
+  font-weight: bold; }
+
+.container {
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto; }
+
+.item-download, .contact {
+  display: flex; }
+
+.item-download {
+  flex-direction: column;
+  align-items: center; }
+
+.contact {
+  align-items: center;
+  justify-content: center; }
+
+.description {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px; }
+
+.sub-description {
+  font-size: 12px;
+  padding: 20px;
+  color: #929292; }
+  .sub-description em {
+    color: #0f7bff; }
+
+.bto-doubt {
+  background-color: #0f7bff;
+  box-shadow: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 30px;
+  padding: 20px 30px;
+  text-align: center; }
+
+.aux, .footer-right, .ul-footer, .footer-low, .ul-footer-low {
+  display: flex; }
+
+footer {
+  padding: 40px 0; }
+
+.footer-left p {
+  width: 70%;
+  line-height: 25px;
+  color: #929292; }
+
+.footer-right {
+  width: 100%; }
+
+.ul-footer {
+  width: 100%;
+  flex-direction: column;
+  line-height: 20px; }
+  .ul-footer a {
+    text-decoration: none;
+    color: #929292; }
+    .ul-footer a:hover {
+      color: #0f7bff; }
+  .ul-footer strong {
+    margin-bottom: 20px; }
+
+.footer-low {
+  font-size: 12px;
+  padding-top: 30px;
+  justify-content: space-between; }
+  .footer-low span {
+    color: #929292; }
+  .footer-low ul {
+    width: 30%;
+    justify-content: space-between; }
+    .footer-low ul a {
+      text-decoration: none;
+      color: #929292; }
+      .footer-low ul a:hover {
+        color: #0f7bff; }
+
+/*# sourceMappingURL=style.css.map */
